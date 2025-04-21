@@ -38,14 +38,17 @@ ASSESSMENT/\
 ```
 
 ## **TASK 1**
+
     ```
     cd TASK1
     python -m src.main --config config.yaml
     pytest -q tests
     ```
+
 *To run CLS‑pooling version: in the config.yaml file, change the pooling to cls and run the commands given above*
 
 ## **TASK 2**
+
     ```
     cd ../TASK2
     python -m src.main --config config.yaml
@@ -53,6 +56,7 @@ ASSESSMENT/\
     ```
 
 ## **TASK 3**
+
     ```
     cd ../TASK3
     python -m src.freeze_control --mode backbone
@@ -60,6 +64,7 @@ ASSESSMENT/\
 *try other modes: all, cls_head, sent_head by modifying the config.yaml file*
 
 ## **TASK 4**
+
     ```
     cd ../TASK4
     python -m src.trainer --config config.yaml
@@ -78,6 +83,7 @@ docker build -t ml-apprentice-assessment .
 ```
 
 2. Launch an interactive shell
+
 ```
 docker run --rm -it -v ${PWD}:/app -w /app ml-apprentice-assessment:latest 
 ```
@@ -85,6 +91,7 @@ docker run --rm -it -v ${PWD}:/app -w /app ml-apprentice-assessment:latest
 3. Inside the container, execute each task exactly as shown above (cd TASK1, etc.).
 
 4. Exit from the container
+
 ```
 Exit
 ```
