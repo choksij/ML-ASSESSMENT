@@ -78,7 +78,7 @@ Upon running the script, embeddings are generated and saved in two formats:
     1. Binary format (.npy): Efficient storage for programmatic use.
     2. Text format (.txt): Readable embeddings for easy inspection.
 
-<img src="output_images/task1/task1-output.jpg" />
+<img src="./output_images/task1/task1-output.jpg" />
 
 ### 6. Technical Choices
     1. Model choice (all-MiniLM-L6-v2): Lightweight and efficient transformer suitable for quick prototyping while maintaining solid performance.
