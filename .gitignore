@@ -10,10 +10,6 @@ venv/
 # Pytest cache
 .pytest_cache/
 
-# Outputs & checkpoints (you might commit small demo outputs, but generally large)
-**/outputs/
-**/checkpoints/
-
 # Editor files
 .vscode/
 .idea/
