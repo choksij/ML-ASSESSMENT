@@ -54,5 +54,5 @@ This document provides a comprehensive overview and explanation of the multi-tas
    - Checkpoints (best_epoch_X.pt) saved whenever validation loss improves.
    - Early stopping triggered after consecutive epochs with no improvement (patience = 2 epochs).
 
-<img src="output_images/task4/task4-output.jpg" />
+<img src="../output_images/task4/task4-output.jpg" />
 

@@ -75,7 +75,7 @@ freeze_mode: backbone
 
 ### 7. Results:
 
-<img src="output_images//task3/task3-output.jpg" />
+<img src="../output_images//task3/task3-output.jpg" />
 
 #### Since I am using a dummy dataset here, so an advance tip for larger datasets will be:
   #### 1. consider gradually unfreezing the backbone layers starting from the top-most layers downwards. This "layer-wise unfreezing" strategy often helps achieve superior performance while minimizing catastrophic forgetting. 

@@ -113,4 +113,4 @@ optimizer = AdamW([
 ## 5. Result:
 
 <img src="TASK3/outputs/trainability.png" />
-<img src="output_images/task3/task3-output.jpg" />
+<img src="../output_images/task3/task3-output.jpg" />

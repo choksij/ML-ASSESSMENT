@@ -82,7 +82,7 @@ They are done to ensure:
   1. Outputs generated in the terminal:
   2. Outputs saved in the csv:
 
-<img src="output_images/task2/task2-output.jpg" />
+<img src="../output_images/task2/task2-output.jpg" />
 
 ### 6. Architecture (Multitask Learning)
     1. Shared Backbone 

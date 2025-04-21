@@ -90,7 +90,7 @@ training:
     - Best-performing model (lowest validation loss) saved as a checkpoint.
     - Training stops early if validation loss does not improve within patience period.
 
-<img src="output_images/task4/task4-output.jpg" />
+<img src="../output_images/task4/task4-output.jpg" />
 
 
 ### 5. Training Visualization
