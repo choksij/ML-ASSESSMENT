@@ -39,7 +39,7 @@ ASSESSMENT/\
 
 ## **TASK 1**
 
-    ```bash
+    ```
     cd TASK1
     python -m src.main --config config.yaml
     pytest -q tests
