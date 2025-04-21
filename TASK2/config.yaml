@@ -1,0 +1,20 @@
+model:
+  name: sentence-transformers/all-MiniLM-L6-v2
+  pooling: mean        
+  normalize: true      
+
+tasks:
+  classification:
+    labels: ["entertainment", "finance", "tech"]
+  sentiment:
+    labels: ["negative", "neutral", "positive"]
+
+inference:
+  batch_size: 16
+
+data:
+  sample_file: data/sample_task2.csv
+
+output:
+  classification_predictions: outputs/classification_predictions.csv
+  sentiment_predictions: outputs/sentiment_predictions.csv

@@ -1,0 +1,21 @@
+# Byte‑compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+
+# Pytest cache
+.pytest_cache/
+
+# Outputs & checkpoints (you might commit small demo outputs, but generally large)
+**/outputs/
+**/checkpoints/
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  ml:
+    build: .
+    image: ml-apprentice-assessment:latest
+    volumes:
+      - ./:/app
+    command: bash

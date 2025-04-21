@@ -1,0 +1,14 @@
+model:
+  name: sentence-transformers/all-MiniLM-L6-v2
+  pooling: mean
+  normalize: true     
+
+inference:
+  batch_size: 32
+
+data:
+  sample_file: data/sample_sentences.txt
+
+output:
+  embeddings_file: outputs/embeddings.npy
+  results_file: outputs/embeddings.txt

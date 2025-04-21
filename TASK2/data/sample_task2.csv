@@ -1,0 +1,4 @@
+sentence,class_label,sentiment_label
+"I love the new movie release","entertainment","positive"
+"Markets fell sharply amid trade fears","finance","negative"
+"The smartphone launch was OK","tech","neutral"

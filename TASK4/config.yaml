@@ -1,0 +1,27 @@
+model:
+  name: sentence-transformers/all-MiniLM-L6-v2
+  pooling: mean
+  normalize: true
+
+tasks:
+  classification:
+    labels: ["entertainment","finance","tech"]
+  sentiment:
+    labels: ["negative","neutral","positive"]
+
+training:
+  epochs: 10
+  batch_size: 8
+  val_split: 0.2
+  patience: 2
+  warmup_ratio: 0.1
+  learning_rates:
+    backbone: 1e-5
+    head:     1e-4
+  loss_weights:
+    classification: 1.0
+    sentiment:      1.0
+  freeze_mode: backbone   
+
+data:
+  sample_file: data/sample_task2.csv

@@ -1,0 +1,7 @@
+model:
+  name: sentence-transformers/all-MiniLM-L6-v2
+  pooling: mean
+  normalize: true
+
+training:
+  freeze_mode: backbone
