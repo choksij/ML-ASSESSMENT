@@ -39,11 +39,11 @@ ASSESSMENT/\
 
 ## **TASK 1**
 
-    ```
+    ```bash
     cd TASK1
     python -m src.main --config config.yaml
     pytest -q tests
-    ```
+
 
 *To run CLS‑pooling version: in the config.yaml file, change the pooling to cls and run the commands given above*
 
