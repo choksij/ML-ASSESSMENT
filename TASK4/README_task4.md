@@ -102,9 +102,9 @@ After training, the following plots are automatically generated and saved under 
   3. Sentiment Accuracy (outputs/sent_accuracy.png): Illustrates training and validation sentiment accuracy.
 
 <p float="left">
-  <img src="TASK4/outputs/cls_accuracy.png" width="550" /> 
-  <img src="TASK4/outputs/loss_curve.png" width="550" /> 
-  <img src="TASK4/outputs/sent_accuracy.png" width="550" />
+  <img src="outputs/cls_accuracy.png" width="550" /> 
+  <img src="outputs/loss_curve.png" width="550" /> 
+  <img src="outputs/sent_accuracy.png" width="550" />
 </p>
 
 ### 6. Enhancements

@@ -52,7 +52,7 @@ The provided visualization (outputs/trainability.png) shows clearly which compon
  1. Frozen components: represented with cross-hatching and labeled as "Frozen".
  2. Trainable components: represented with diagonal hatching and labeled as "Trainable".
 
-<img src="TASK3/outputs/trainability.png" />
+<img src="outputs/trainability.png" />
 
 ### 5. Training Considerations
 
